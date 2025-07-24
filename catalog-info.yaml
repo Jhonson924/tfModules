@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tfModules
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
+  links:
+    - title: backstageDoc
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: InstallationGuide
+      url: https://backstage.io/docs/getting-started/#1-create-your-backstage-app
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: Jhonson924/tfModules
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
